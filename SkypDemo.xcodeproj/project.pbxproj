@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8436CB0A1F02392300EECF78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436CB091F02392300EECF78 /* main.m */; };
+		8436CB0D1F02392300EECF78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436CB0C1F02392300EECF78 /* AppDelegate.m */; };
+		8436CB101F02392300EECF78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436CB0F1F02392300EECF78 /* ViewController.m */; };
+		8436CB131F02392300EECF78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8436CB111F02392300EECF78 /* Main.storyboard */; };
+		8436CB151F02392300EECF78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8436CB141F02392300EECF78 /* Assets.xcassets */; };
+		8436CB181F02392300EECF78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8436CB161F02392300EECF78 /* LaunchScreen.storyboard */; };
+		8436CB351F023A6200EECF78 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8436CB341F023A6200EECF78 /* GLKit.framework */; };
+		8436CB3B1F023AA600EECF78 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8436CB3A1F023AA600EECF78 /* AVFoundation.framework */; };
+		8436CB4B1F0253B500EECF78 /* SfBConversationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436CB4A1F0253B500EECF78 /* SfBConversationHelper.m */; };
+		8436CB511F02566600EECF78 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436CB501F02566600EECF78 /* Util.m */; };
+		8436CB541F02621100EECF78 /* MicrosoftLicenseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436CB531F02621100EECF78 /* MicrosoftLicenseViewController.m */; };
+		84F95D9B1F07BA320008AF0A /* ParticipantCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F95D9A1F07BA320008AF0A /* ParticipantCell.m */; };
+		9F2421491F0BC6FE002383A1 /* SkypeForBusiness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2421471F0BC6F7002383A1 /* SkypeForBusiness.framework */; };
+		9F24214A1F0BC6FE002383A1 /* SkypeForBusiness.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2421471F0BC6F7002383A1 /* SkypeForBusiness.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F8D2A7B1F0B5A8000A01C32 /* JoinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D2A7A1F0B5A8000A01C32 /* JoinViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8436CB4E1F0253BB00EECF78 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9F24214A1F0BC6FE002383A1 /* SkypeForBusiness.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8436CB051F02392300EECF78 /* SkypDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkypDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8436CB091F02392300EECF78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8436CB0B1F02392300EECF78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8436CB0C1F02392300EECF78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8436CB0E1F02392300EECF78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8436CB0F1F02392300EECF78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8436CB121F02392300EECF78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8436CB141F02392300EECF78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8436CB171F02392300EECF78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8436CB191F02392300EECF78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8436CB341F023A6200EECF78 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		8436CB3A1F023AA600EECF78 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8436CB491F0253B500EECF78 /* SfBConversationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SfBConversationHelper.h; sourceTree = "<group>"; };
+		8436CB4A1F0253B500EECF78 /* SfBConversationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SfBConversationHelper.m; sourceTree = "<group>"; };
+		8436CB4F1F02566600EECF78 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		8436CB501F02566600EECF78 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		8436CB521F02621100EECF78 /* MicrosoftLicenseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicrosoftLicenseViewController.h; sourceTree = "<group>"; };
+		8436CB531F02621100EECF78 /* MicrosoftLicenseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicrosoftLicenseViewController.m; sourceTree = "<group>"; };
+		84F95D991F07BA320008AF0A /* ParticipantCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticipantCell.h; sourceTree = "<group>"; };
+		84F95D9A1F07BA320008AF0A /* ParticipantCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticipantCell.m; sourceTree = "<group>"; };
+		9F2421471F0BC6F7002383A1 /* SkypeForBusiness.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SkypeForBusiness.framework; sourceTree = "<group>"; };
+		9F8D2A791F0B5A8000A01C32 /* JoinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinViewController.h; sourceTree = "<group>"; };
+		9F8D2A7A1F0B5A8000A01C32 /* JoinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoinViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8436CB021F02392300EECF78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8436CB3B1F023AA600EECF78 /* AVFoundation.framework in Frameworks */,
+				8436CB351F023A6200EECF78 /* GLKit.framework in Frameworks */,
+				9F2421491F0BC6FE002383A1 /* SkypeForBusiness.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8436CAFC1F02392300EECF78 = {
+			isa = PBXGroup;
+			children = (
+				9F2421471F0BC6F7002383A1 /* SkypeForBusiness.framework */,
+				8436CB071F02392300EECF78 /* SkypDemo */,
+				8436CB061F02392300EECF78 /* Products */,
+				8436CB331F023A6200EECF78 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8436CB061F02392300EECF78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8436CB051F02392300EECF78 /* SkypDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8436CB071F02392300EECF78 /* SkypDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8436CB0B1F02392300EECF78 /* AppDelegate.h */,
+				8436CB0C1F02392300EECF78 /* AppDelegate.m */,
+				8436CB491F0253B500EECF78 /* SfBConversationHelper.h */,
+				8436CB4A1F0253B500EECF78 /* SfBConversationHelper.m */,
+				8436CB4F1F02566600EECF78 /* Util.h */,
+				8436CB501F02566600EECF78 /* Util.m */,
+				8436CB521F02621100EECF78 /* MicrosoftLicenseViewController.h */,
+				8436CB531F02621100EECF78 /* MicrosoftLicenseViewController.m */,
+				9F8D2A791F0B5A8000A01C32 /* JoinViewController.h */,
+				9F8D2A7A1F0B5A8000A01C32 /* JoinViewController.m */,
+				8436CB0E1F02392300EECF78 /* ViewController.h */,
+				8436CB0F1F02392300EECF78 /* ViewController.m */,
+				84F95D991F07BA320008AF0A /* ParticipantCell.h */,
+				84F95D9A1F07BA320008AF0A /* ParticipantCell.m */,
+				8436CB111F02392300EECF78 /* Main.storyboard */,
+				8436CB141F02392300EECF78 /* Assets.xcassets */,
+				8436CB161F02392300EECF78 /* LaunchScreen.storyboard */,
+				8436CB191F02392300EECF78 /* Info.plist */,
+				8436CB081F02392300EECF78 /* Supporting Files */,
+			);
+			path = SkypDemo;
+			sourceTree = "<group>";
+		};
+		8436CB081F02392300EECF78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8436CB091F02392300EECF78 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8436CB331F023A6200EECF78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8436CB3A1F023AA600EECF78 /* AVFoundation.framework */,
+				8436CB341F023A6200EECF78 /* GLKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8436CB041F02392300EECF78 /* SkypDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8436CB1C1F02392300EECF78 /* Build configuration list for PBXNativeTarget "SkypDemo" */;
+			buildPhases = (
+				8436CB011F02392300EECF78 /* Sources */,
+				8436CB021F02392300EECF78 /* Frameworks */,
+				8436CB031F02392300EECF78 /* Resources */,
+				8436CB4E1F0253BB00EECF78 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkypDemo;
+			productName = SkypDemo;
+			productReference = 8436CB051F02392300EECF78 /* SkypDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8436CAFD1F02392300EECF78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "ADIT-MAC05";
+				TargetAttributes = {
+					8436CB041F02392300EECF78 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5UMH9DF9GM;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8436CB001F02392300EECF78 /* Build configuration list for PBXProject "SkypDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8436CAFC1F02392300EECF78;
+			productRefGroup = 8436CB061F02392300EECF78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8436CB041F02392300EECF78 /* SkypDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8436CB031F02392300EECF78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8436CB181F02392300EECF78 /* LaunchScreen.storyboard in Resources */,
+				8436CB151F02392300EECF78 /* Assets.xcassets in Resources */,
+				8436CB131F02392300EECF78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8436CB011F02392300EECF78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8436CB511F02566600EECF78 /* Util.m in Sources */,
+				8436CB4B1F0253B500EECF78 /* SfBConversationHelper.m in Sources */,
+				8436CB101F02392300EECF78 /* ViewController.m in Sources */,
+				8436CB0D1F02392300EECF78 /* AppDelegate.m in Sources */,
+				8436CB541F02621100EECF78 /* MicrosoftLicenseViewController.m in Sources */,
+				8436CB0A1F02392300EECF78 /* main.m in Sources */,
+				9F8D2A7B1F0B5A8000A01C32 /* JoinViewController.m in Sources */,
+				84F95D9B1F07BA320008AF0A /* ParticipantCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8436CB111F02392300EECF78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8436CB121F02392300EECF78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8436CB161F02392300EECF78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8436CB171F02392300EECF78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8436CB1A1F02392300EECF78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8436CB1B1F02392300EECF78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8436CB1D1F02392300EECF78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5UMH9DF9GM;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SkypDemo",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SkypDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mehfilmastee.app.SkypDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8436CB1E1F02392300EECF78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5UMH9DF9GM;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SkypDemo",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SkypDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mehfilmastee.app.SkypDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8436CB001F02392300EECF78 /* Build configuration list for PBXProject "SkypDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8436CB1A1F02392300EECF78 /* Debug */,
+				8436CB1B1F02392300EECF78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8436CB1C1F02392300EECF78 /* Build configuration list for PBXNativeTarget "SkypDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8436CB1D1F02392300EECF78 /* Debug */,
+				8436CB1E1F02392300EECF78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8436CAFD1F02392300EECF78 /* Project object */;
+}
